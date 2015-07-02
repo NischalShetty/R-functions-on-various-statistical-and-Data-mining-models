@@ -4,6 +4,7 @@
 Sentence_Tokenizer <- function(x)
 {
   #we will be using the unlist and strsplit functions for computing the text mining.
+  #can use: help(unlist) or help(strsplit) to know more about these functions
   strsplit_space_tokenizer <- unlist(strsplit(x, "[.]+"))
   strsplit_space_tokenizer
 }
